@@ -9,5 +9,4 @@ public class DirectoryScanRunner {
 	public static void main(String[] args) throws IOException {
 		Files.list(Paths.get(".")).forEach(System.out::println);
 	}
-
 }
